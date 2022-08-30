@@ -35,6 +35,10 @@ namespace TADHL.Models
         {
             return this.modelFact.ExisteSegmentos(seg);
         }
+        public DataTable ExisteStatus(string seg)
+        {
+            return this.modelFact.ExisteStatus(seg);
+        }
         public DataTable GetEstatus(string orden)
         {
             return this.modelFact.GetEstatus(orden);
